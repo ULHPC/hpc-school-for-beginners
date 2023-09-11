@@ -1,7 +1,7 @@
 # Interactive jobs
 
 ## Exercise 1
-`si -c8 -t60 --reservation=day2v`
+`si -c8 -t60 --reservation=day2`
 
 ## Exercise 2
 `si -c32 -t120 --reservation=day2`
