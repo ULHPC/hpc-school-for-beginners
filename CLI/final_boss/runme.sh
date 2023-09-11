@@ -11,4 +11,4 @@ cat ~/hpc-school-for-beginners/CLI/final_boss/data.dat
 echo "You should have read the script. Suffer now."
 sleep 10
 ls -la ~/hpc-school-for-beginners/CLI
-echo "$(ls -la ~/hpc-school-for-beginners/CLI | wc -l) files in the directory"
+echo "$(ls -la ~/hpc-school-for-beginners/CLI | wc -l) files in the hpc-school-for-beginners/CLI directory"
