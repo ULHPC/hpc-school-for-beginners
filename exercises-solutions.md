@@ -18,21 +18,21 @@
 # Batch jobs
 
 ## Exercise 1
-`sbatch batch-job/launcher.sh`
+`sbatch batch-job/batch-job-launcher.sh`
 
 ## Exercise 2
-`sbatch -J job1 -o job1.out -e job1.err batch-job/launcher.sh`
-`sbatch -J job2 -o job2.out -e job2.err batch-job/launcher.sh`
+`sbatch -J job1 -o job1.out -e job1.err batch-job/batch-job-launcher.sh`
+`sbatch -J job2 -o job2.out -e job2.err batch-job/batch-job-launcher.sh`
 
 or 
 
 ```Bash
 for i in {1..5}; 
 do 
-	sbatch -J job${i}  -o job${i}.out -e job${i}.err batch-job/launcher.sh 
+	sbatch -J job${i}  -o job${i}.out -e job${i}.err batch-job/batch-job-launcher.sh 
 done
 ```
 
 ## Exercise 3
-`sbatch -M your_email_address -m FAIL,END batch-job/launcher.sh`
+`sbatch -M your_email_address -m FAIL,END batch-job/batch-job-launcher.sh`
 
