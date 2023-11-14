@@ -1,10 +1,10 @@
 # Interactive jobs
 
 ## Exercise 1
-`si -c8 -t60 --reservation=day2`
+`si -c8 -t60 --reservation=school-interactive`
 
 ## Exercise 2
-`si -c32 -t120 --reservation=day2`
+`si -c32 -t120 --reservation=school-interactive`
 
 **Remark:** AION compute nodes have 2G per core (128 cores, 256G of RAM)
 
