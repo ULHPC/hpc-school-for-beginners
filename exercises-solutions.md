@@ -13,7 +13,7 @@
 **Solution:** no, IRIS CPU nodes only have 28 cores
 
 **Q2:** How much cores would you have to request on a IRIS CPU node to have 64G of RAM?
-**Solution:** 16 cores, each cores receives 4G on an IRIS CPU node (28 cores, 128G of RAM)
+**Solution:** 14 cores, each cores receives 4G on an IRIS CPU node (28 cores, 128G of RAM)
 
 # Batch jobs
 
