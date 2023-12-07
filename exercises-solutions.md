@@ -34,5 +34,5 @@ done
 ```
 
 ## Exercise 3
-`sbatch -M your_email_address -m FAIL,END batch-job/batch-job-launcher.sh`
+`sbatch --mail-user your_email_address --mail-type FAIL,END batch-job/batch-job-launcher.sh`
 
